@@ -1,0 +1,70 @@
+*{margin: 0%;padding: 0%;}
+.bg-black{
+    background-color: #090909;}
+.navbar-nav .nav-item .nav-link{color: #fff;} 
+.nav-link{transition: 1s 1s;}
+.nav-item:hover .nav-link {text-decoration: underline; margin-bottom: 
+    10px; padding-bottom: 10px;
+}
+.layeer{width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2);}
+
+header{height:650px;
+background-image: url(../images/intro-bg.jpg);
+background-size: cover;
+background-attachment: fixed;}
+
+.head h1{font-weight: 900;font-size: 4rem;letter-spacing: 3px;padding-bottom: 15px;}
+
+.head p{font-weight: 900;padding-top: 15px;
+font-size: 2rem;}
+.text1{animation: text11;}
+.text2{animation: text22;}
+.text3{animation: text33;}
+.text4{animation: text44;}
+.text5{animation: text55;}
+.text1,.text2,.text3,.text4,.text5{text-align: center;overflow: hidden;white-space: nowrap;display: inline-block;position: relative
+;animation-duration: 14s;animation-timing-function: steps(25,end);animation-iteration-count: infinite;}
+
+.text1::after,.text2::after,.text3::after,.text4::after,.text5::after{content: "|";position: absolute;
+right: 0;animation: caret infinite;
+animation-duration: 1s;animation-timing-function: steps(1,end)}
+
+@keyframes text11{
+    0%,20%,30%,40%,50%,60%,70%,80%,90%,100%{width: 0;}
+    5%{width: 6em;}
+}
+
+
+@keyframes text22{
+    0%,20%,10%,40%,50%,60%,70%,80%,90%,100%{width: 0;}
+    30%{width: 6.5em;}
+}
+@keyframes text33{
+    0%,20%,30%,40%,10%,60%,70%,80%,90%,100%{width: 0;}
+    50%{width: 7em;}
+}
+
+@keyframes text44{
+    0%,20%,30%,40%,50%,60%,70%,10%,90%,100%{width: 0;}
+    70%{width: 7.5em;}
+}
+@keyframes text55{
+    0%,20%,30%,40%,50%,60%,70%,80%,10%,100%{width: 0;}
+    95%{width: 8em;}
+}
+
+@keyframes caret{0%,100%{opacity: 0;}
+50%{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
