@@ -1,6 +1,8 @@
 *{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: inherit;
     color: inherit;
@@ -151,7 +153,7 @@ text-align: center;
 }
 .info{
     float: left;
-    width: 29%;
+    width: 30%;
     padding: 0px 10px 0px 50px;
     overflow: auto;
 }
@@ -277,7 +279,7 @@ background-position: center center;
 background-size: cover ;
 flex-wrap:wrap  ;
 transition: opacity .5s ease;
-overflow: hidden;
+
 padding-top: 90px !important;
 padding-bottom: 90px !important;
 margin-left: -15px;
@@ -412,4 +414,181 @@ overflow: auto;
     transition: opacity .3s ease-in;
     border: 0;
     width: 700px;
+}
+
+
+.convinced
+{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 40px 0px ;
+
+
+}
+.convinced .container
+{
+    overflow: auto;
+
+    width: 90%;
+    margin: auto;
+
+}
+
+.convinced-content
+{
+    float: left;
+	
+}
+
+.convinced-content h2
+{
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.convinced-content p
+{
+	color: rgba(255,255,255,.82);
+    font-size: 20px;
+    font-style: normal;
+}
+.convinced-btn
+{
+    float: right;
+    
+}
+
+.convinced-btn button
+{
+
+    padding: 25px 38px;
+    background-color: white;
+    border-radius: 4px ;
+    border :none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+.Company-info
+{
+    background-color: #1f2021;
+    color: #58606b;
+}
+.Company-info .container
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+
+}
+
+
+.Company-info .container .Company-info-section
+{
+    width: 25%;
+    float: left;
+    padding: 20px;
+
+}
+
+.Company-info .container .Company-info-section h4
+{
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.Company-info .container .Company-info-section ul
+{
+
+list-style-type: none;
+}
+
+.Company-info .container .Company-info-section ul li
+{
+
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+
+.footer
+{
+    background-color: #191919;
+    padding: 9px 0px;
+    color: #58606b;
+    font-size: 13px;
+}
+
+.footer .container {
+    width: 90%;
+    margin:auto;
+
+}
+
+
+
+@media (max-width: 850px) and (min-width: 768px)
+{
+    .counter-icons
+    {
+        width:50% ; 
+        float :left;
+        text-align : center;
+    }
+    .convinced-content
+    {
+        width: 100%; 
+        text-align:center ;
+        
+    }
+    .convinced-btn
+    {   
+        padding-top: 18px;
+        width: 100%; 
+        text-align:center ;
+        
+    }
+
+    .Company-info .container .Company-info-section
+    {
+        width: 50%;
+        float: left;
+        padding: 20px;
+
+    }
+    
+}
+
+@media (max-width:768px)
+{
+ 
+    .convinced-content
+    {
+        width: 100%; 
+        text-align:center ;
+        
+    }
+    .convinced-btn
+    {   
+        padding-top: 18px;
+        width: 100%; 
+        text-align:center ;
+        
+    }
+    .Company-info .container .Company-info-section
+    {
+        width: 100%;
+        float: left;
+        padding: 20px;
+
+    }
+
+
+    
 }

@@ -1,4 +1,5 @@
-*{margin: 0%;padding: 0%;}
+*{
+    margin: 0%;padding: 0%;}
 .bg-black{
     background-color: #090909;}
 .navbar-nav .nav-item .nav-link{color: #fff;} 
